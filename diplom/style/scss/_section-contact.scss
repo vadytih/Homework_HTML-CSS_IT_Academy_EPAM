@@ -1,0 +1,120 @@
+.section-contact {
+    height: 717px;
+    max-width: $max-width-doc;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)), 
+    url('../imag/bg-sect-cont.png') no-repeat top;
+
+    &__wrapper {
+        max-width: $max-width-cont;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+        padding-top: 100px;
+    }
+
+    &__borderik {
+        width: 51px;
+        border-bottom: 3px solid $r;
+    }
+}
+
+.section-contact__left-blok {
+    max-width: 500px;
+
+
+    &-headline {
+        margin-bottom: 37px;
+    }
+
+    &-text {
+        margin-bottom: 30px;
+    }
+
+    & &-borderik {
+        margin-bottom: 40px;
+    }
+        
+    &-cont-data {
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    &-data-icon {
+        margin-right: 15px;
+    }
+
+    // &-data-text {
+
+    // }
+}
+
+.section-contact__right-blok {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+
+    &-headline {
+        margin-bottom: 15px;
+    }
+
+    & &-borderik {
+        margin-bottom: 25px;
+    }
+
+    &-text {
+        margin-bottom: 38px;
+    }
+
+    &-form {
+        width: 445px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-form-line {
+        margin-bottom: 15px;
+    }
+
+    &-form-message {
+        height: 191px;
+        line-height: 20px;
+        margin-bottom: 38px;
+    }
+
+    &-form-button {
+        margin-left: auto;
+    }
+
+
+}
+
+@media screen and (max-width: 991px) {
+    
+    .section-contact {
+        height: 500px;
+    }
+
+    .section-contact__wrapper {
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    
+    .section-contact__right-blok {
+        display: none;
+    }
+
+    
+    .section-contact__left-blok {
+  
+
+        width: 100%;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+a:hover {
+    color: red;
+}
+
+body,
+aside {
+    border: 1px solid black;
+    
+}
+
+
+aside {
+    max-width: 100%;
+    background-color: wheat;
+    margin: 0 auto;    
+}
+
+aside div {
+    margin-bottom: 5px;
+    background-color: gainsboro;    
+}
+
+ .box {
+    min-width: 480px;
+    max-width: 610px;
+    background-color: yellow;    
+    margin: 0 auto;
+ }
+
+ /* 1 варик*/
+
+.v1 {
+    width: 100%;    
+}
+
+
+ .v1 a {
+    display: inline-block;
+    width: 25%;
+    border-right: 2px solid red;
+    font-size: 0;    
+    margin-right: -2px;
+    margin-left: -1px;
+    text-align: center;
+ }
+
+ .v1 a:last-child {
+    border: 0;
+ }
+
+ .v1 p {
+     height: 22px;
+     font-size: 16px;
+     margin: 0;    
+ }
+
+ /* 2 варик */
+ .v2 table {
+     width: 100%;
+     text-align: center;
+ }
+
+ .v2 td {
+     border-right: 2px solid red;
+     padding: 0;     
+ }
+
+ /* 3 варик */
+ .v3 {
+     width: 100%;
+ }
+
+ .v3 nav span {
+     color: red;
+     font-size: 20px;
+     font-weight: 900;    
+ }
+
+ .v3 nav span,
+ .v3 nav a {
+    margin-left: 6.6%;
+ }
+ .v2 td:nth-child(4) {
+     border: none;
+ }
+
+  /* 4 варик */
+
+.v4 {
+    width: 100%;
+    height: 22px;
+    position: relative;
+}
+.v4 div {
+    height: 22px;
+    width: 66px;
+    position: absolute;
+    margin-left: -50px;
+    margin-bottom: -11px;
+}
+
+.v4 div:nth-child(1) {
+    left: 15%;
+    bottom: 50%;
+}
+.v4 div:nth-child(2) {
+    left: 40%;
+    bottom: 50%;
+}
+.v4 div:nth-child(3) {
+    left: 65%;
+    bottom: 50%;
+}
+.v4 div:nth-child(4) {
+    left: 90%;
+    bottom: 50%;
+}
+.v4 img {
+    width: 2px;
+    height: 22px;
+    position: absolute;
+    margin-left: 1px;    
+    
+}
+.v4 img:nth-child(1){
+    right: 25%;
+}
+.v4 img:nth-child(2){
+    right: 50%;
+}
+.v4 img:nth-child(3){
+    right: 75%;
+}
+
+  /* 5 варик */
+.v5 ul {
+    margin: 0;
+}
+.v5 li:first-child {
+    list-style: none;
+    float: left;
+    margin-left: 1%; 
+}
+
+.v5 li + li {
+    list-style: none;
+    background: url(f2.png) no-repeat 0;
+    padding-left: 48px;
+    margin-left: 7%;
+    float: left;
+}
+
+.v5::before,
+.v5::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.v5 div {
+    margin: 0 auto;      
+}
+
+  

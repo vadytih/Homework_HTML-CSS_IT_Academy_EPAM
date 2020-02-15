@@ -1,0 +1,37 @@
+body {
+    margin: 10px;
+}
+
+.box {
+    width: 420px;
+    background: url('imag/star.svg') repeat-x,
+    url('imag/star.svg') 0% 50% no-repeat,
+    url('imag/star.svg') 100% 50% no-repeat,
+    url('imag/star.svg') 0% 100% repeat-x;
+    background-color: #e6f141;
+    padding: 45px;
+    background-size: 45px;
+
+}
+
+table {
+    margin: 0 auto;
+    table-layout: auto;
+}
+
+th {
+    font-family: "Gotham-Bold", sans-serif;
+}
+
+td, tr {
+    font-family: "Gotham-Book", sans-serif;
+    border: 1px solid;
+    vertical-align: middle;
+}
+
+.others {
+    font-family: "Gotham-Book";
+    font-weight: 400;
+    text-align: center;
+}
+

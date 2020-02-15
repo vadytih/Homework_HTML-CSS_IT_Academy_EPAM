@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+}
+
+button {
+    width: 140px;
+    height: 60px;
+    border: none;
+    background: #9e4a96;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+button:hover {
+    cursor: pointer;
+    background:  rgba(158, 74, 150, 0.8);
+}
+
+span {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+h1,
+h2 {
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+
+    &__headline {
+        text-align: center;
+    }
+}
+
+.box {
+    width: 300px;
+    margin: 0 5px;
+}
+
+.box-1 {
+
+    &__btn {
+        transition: .15s;
+    }
+}
+
+.box-2 {
+
+    &__card {       
+        box-shadow: 1px 2px 4px 0px gray;
+        border-radius: 5px;       
+    }
+
+    &__blok {
+        width: 100%;
+        position: relative;
+    }
+
+    &__btn {
+        position: absolute;
+        margin-top: -30px;
+        margin-left: -70px;
+        top: 50%;
+        left: 50%;
+        transform: rotate(0deg) scale(0,0);
+        transition: transform 0.15s linear 0ms;   
+    }
+
+    &__btn span::before {
+        content: "нажми меня!";
+    }
+
+    &__imag {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    
+    &__text {
+        padding: 5px 3px 10px 8px;
+    }
+}
+
+.box-2__card:hover {
+
+    button {
+    transform: rotate(0deg) scale(1,1);
+    transition: transform 0.15s linear 0ms;
+    }
+}
+
+.box-3 {
+
+    input {
+        width: 100%;
+        line-height: 40px;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: none;
+        padding: 0 5px;
+        background: transparent; 
+    }
+
+    span {
+        text-transform: none;
+        color: black;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    span::before {
+        content: "Yor name:";
+    }
+
+    form {
+        position: relative;
+    }
+
+    label {
+        width: 86px;
+        height: 24px;
+        background: #ffffff;
+        position: absolute;
+        margin-left: -43px;
+        margin-bottom: -12px;
+        bottom: 50%;
+        left: 20%;
+        transition: transform 0.15s linear 0ms; 
+        z-index: 1;
+    }
+
+    input:focus ~ label {
+        bottom: 100%;
+        transition: transform 0.15s linear 0ms; 
+        z-index: 1;
+    }
+
+    input:valid ~ label {
+        bottom: 100%;
+    }
+
+}

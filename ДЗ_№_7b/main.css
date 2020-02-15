@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px dashed black;
+    font-size: 0;
+    padding: 20px;    
+}
+
+.centr {
+    margin: 0 auto;    
+}
+
+.boxs {
+    width: 31%;    
+    display: inline-block;
+    border: 1px solid black;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.boxs::before,
+.boxs::after {
+    content: '';
+    display: inline-block;
+    clear: both;
+}
+span {
+    font-size: 24px;
+    font-weight: 800;
+}
+.nomer {
+    height: 30px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 0;
+}
+
+p {
+    font-size: 16px;
+}
+.boxs div span,
+.boxs p {
+    vertical-align: top; 
+    margin: 0;   
+}
+
+@media (max-width: 1023px) {
+    .box::before,
+    .box::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .boxs {
+        width:49%;
+        display: block;           
+    }
+
+    .boxs:first-child {
+        margin: 0;
+        float: left;
+    }
+
+    .boxs:nth-child(2) {
+        margin-left: 2%;
+        float: left;
+    }
+    
+    .boxs:last-child {
+        display: block;
+        width: 100%;
+        margin: 0;
+        margin-top: 15px;
+        float: left;        
+    }
+}
+
+@media (max-width: 767px) {
+    .boxs:first-child,
+    .boxs:nth-child(2){
+        margin: 0;
+        width: 100%;  
+    }
+    .boxs:nth-child(2){
+        margin-top: 15px;
+    }
+    .boxs:first-child,
+    .boxs:nth-child(2),
+    .boxs:last-child {
+        position: none;
+    }
+}

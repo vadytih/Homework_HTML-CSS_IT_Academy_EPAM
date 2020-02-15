@@ -1,0 +1,206 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 43px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;  
+
+    &__top{
+        height: 55px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        
+        &-left {
+            width: 28%;
+        }
+
+        &-centr {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        &-logo {
+            width: 177px;            
+            display: block; 
+                 
+        }
+
+        &-right {
+            width: 28%;
+            display: flex;
+            justify-content: space-between;
+        }
+        &-right-feadback-buttom-wrap {
+            display: flex;
+            align-items: center;
+        }
+
+        &-right-feeadback-buttom {
+            padding: 0;
+        }
+
+        &-right-feedback {
+            border-bottom: 1px solid #848484;
+        }
+
+        &-right-tel {
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+
+            &-link {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 700;
+                color: #848484;                
+            }
+
+        }
+
+    }
+
+    &__select-city {
+        display: flex;
+        background: none;
+        border: none;
+
+        &-icon {
+            margin-right: 10px;
+        }
+
+    }
+
+    &__bottom {
+        border-top: 1px solid #e0e0e0;
+        padding: 9px 0 10px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__bottom-left-nav ul {
+        display: flex;
+        text-transform: none;
+        color: #848484;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 40.08px;
+    }
+
+    &__bottom-left-nav-link a {
+        color: #848484;
+    }
+
+    &__bottom-left-nav-link + &__bottom-left-nav-link {
+        margin-left: 39px;
+    }
+
+    &__bottom-right {
+        display: flex;
+        align-items: center;
+    }
+    
+    &__bottom-right-link {
+        display: flex;
+        align-items: center;
+        margin-right: 28px;
+    }
+
+    &__bottom-right-img {
+        width: 30px;
+        height: 30px;
+        border: 1px solid #d9d9d9;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    &__bottom-right-text {
+        color: #848484;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 40.28px;
+        text-transform: capitalize;
+
+    }
+
+    // &__bottom-right-button-wrapp {
+
+
+    // }
+
+    &__bottom-right-button {
+        padding: 0 20px;
+        height: 40px;
+        background-color: #f1ca00;
+    }
+
+    &__bottom-right-button span {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 40.08px;
+        text-transform: uppercase;
+    }
+    
+    &__promo {
+        height: 490px;
+        width: 100%;
+        // min-width: 1293px;
+        margin: 0 auto;
+        background-color: #f1ca00;
+        background-image: url('../imag/Shape_6.png');
+        background-repeat: repeat-x;       
+        background-position: -779px bottom;
+        display: flex;
+
+    }
+
+    &__promo-containt-wrapp {
+        margin: 0 auto;
+
+    }
+    
+    &__promo-containt {
+        margin-top: 116px;
+
+    }
+
+    &__promo-headliner {
+        color: #000000;
+        font-family: Roboto;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 75px;
+        margin-bottom: 27px;
+        text-align: center;
+    }
+
+    &__promo-text {
+        color: #000000;
+        font-family: Roboto;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 75px;
+        text-align: center;
+
+        & span {
+            border-bottom: 1px dashed #000000;
+        }
+    }
+    
+
+
+}
+
+.logo-tap-taxi {
+    height: 20px;
+    display: block;
+}

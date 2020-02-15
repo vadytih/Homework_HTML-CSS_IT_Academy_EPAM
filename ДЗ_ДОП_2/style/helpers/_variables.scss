@@ -1,0 +1,11 @@
+$color-link-nav: #ffff; 
+$header-width: 910px;
+
+@media screen and (max-width: 910px) {
+    .header,
+    .header-cont,
+    .header-promotion {
+        width: 908px;
+    }
+}
+

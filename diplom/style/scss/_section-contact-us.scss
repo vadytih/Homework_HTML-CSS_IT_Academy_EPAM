@@ -1,0 +1,46 @@
+.section-contact-us {
+    max-width: $max-width-doc;
+    height: 400px;
+    background: url('../imag/what-we-dot.png') no-repeat top, linear-gradient(to top, rgba(0,0,0,0.7)), 
+    url('../imag/bg-contact-us.png') no-repeat top;
+    
+    &__wrapper {
+        max-width: $max-width-cont;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 89px 0 87px;
+    }
+
+    &__play {
+//  margin: 0 auto;
+    }
+
+    &__text,
+    &__headline {
+        text-align: center;
+    }
+
+    &__headline {
+        margin: 37px 0 28px;
+    }
+
+}
+@media screen and (max-width: 991px) {
+    
+    .section-contact-us__wrapper {
+        padding-top: 60px;
+        align-items: center;
+
+    }
+}
+
+@media screen and (max-width: 440px) {
+
+    .section-contact-us__wrapper {
+        padding-top: 40px;
+        align-items: center;
+
+    }
+}
+

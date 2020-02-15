@@ -1,0 +1,43 @@
+@import 'mixins';
+@import 'header';
+@import 'humburger';
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.containt {
+    width: 100%;
+}
+
+.containt div {
+    margin: 0 auto;
+}
+
+.swiper-container {
+    margin-top: 100px;
+    max-width: 50%;
+    height: 100%;
+}
+
+.menu {    
+    @include media-max(1023px) {
+        position: fixed;
+        height: 100%;
+        right: 0;
+        top: 0;
+        padding: 100px 50px 20px;
+        background-color: #000;
+        transform: translateX(100%);
+        transition: .25s;
+        
+        &.active {
+            display: block;
+            transform: none;
+        }
+    }
+}

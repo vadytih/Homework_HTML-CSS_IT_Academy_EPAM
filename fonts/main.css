@@ -1,0 +1,14 @@
+.box {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(219, 215, 215);
+    padding: 100px;
+    margin: 100px;
+    font-family: "Roboto Mono";
+    font-weight: 400;
+}
+
+.box1 {
+    font-family: "Roboto Mono";
+    font-weight: 100;
+}

@@ -1,0 +1,501 @@
+// .text-conf*//
+
+.text-conf__header {
+
+    &-logo {
+        color: $r;
+        font-family: $v;
+        font-size: $size-3-xl;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    &-nav {
+        color: $f;
+        font-family: $v;
+        font-size: $size-m;
+        font-weight: 400;
+        line-height: 32px;
+        text-transform: uppercase;
+    }
+
+    &-headline {
+        color: $f;
+        font-family: $v;
+        font-size: $size-5-xl;
+        font-weight: 700;
+        line-height: 74px;
+    }
+
+    &-text {
+        color: $f;
+        font-family: $v;
+        font-size: $size-1-xl;
+        font-weight: 400;
+        line-height: 28px;
+    }
+}
+
+// .text-conf__section-contact-us*//
+.text-conf__section-contact-us {
+
+    &__headline {
+        color: $f;
+        font-family: $v;
+        font-size: $size-4-xl;
+        font-weight: 700;
+        line-height: 58px;
+        text-transform: uppercase;
+    }
+}
+
+.text-conf-service-card {
+
+    &__headline {
+        color: $d-g;
+        font-family: $v;
+        font-size: $size-l;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    &__text {
+        color: #aeaeae;
+        font-family: $v;
+        font-size: $size-m;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
+
+
+
+// .text-conf__section-about*//
+
+.text-conf__section-about {
+
+    &__header-headliner {
+        color: #343434;
+        font-family: $v;
+        font-size: $size-2-xl;
+        font-weight: 700;
+        // line-height: 28px;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+
+    &__header-text {        
+        color: #afafaf;
+        font-family: $v;
+        font-size: $size-l;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    &__headline {
+        color: #fe504f;
+        font-family: $v;
+        font-size: $size-1-xl;
+        font-weight: 700;
+        // line-height: 74px;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+
+    &__text {
+        color: #343434;
+        font-family: $v;
+        font-size: $size-m;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    &-liad-name {
+        color: #ffffff;
+        font-family: $v;
+        font-size: $size-3-xl;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    &-team-office {
+        color: #ffffff;
+        font-family: $v;
+        font-size: $size-s;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    &-team-position {
+        color: #ffffff;
+        font-family: $v;
+        font-size: $size-s;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+
+
+
+}
+
+// .text-conf__section-what-we-do*//
+
+.text-conf__section-what-we-do {
+
+    &__headline {
+        color: #ffffff;
+        font-family: $v;
+        font-size: $size-4-xl;
+        font-weight: 700;
+        // line-height: 58px;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        color: #ffffff;
+        font-family: $v;
+        font-size: $size-l;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+}
+
+
+
+
+
+// .text-conf__section-news*//
+.text-conf__section-news-head {    
+    &-headline {
+        color: #343434;
+        font-family: $v;
+        font-size: $size-2-xl;
+        font-weight: 700;
+        // line-height: 28px;
+        text-transform: uppercase;
+    }
+
+    &-text {
+        color: #afafaf;
+        font-family: $v;
+        font-size: $size-l;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
+
+.text-conf__section-news-box {
+
+    &__headline {
+        color: $r;
+        font-family: $v;       
+        font-size: $size-1-xl;        
+        font-weight: 700;        
+        line-height: 26px;        
+        text-transform: uppercase;
+    }
+
+    &__text {
+        color: $f;
+        font-family: $v;
+        font-size: $size-s;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    &__date {
+        color: $r;
+        font-family: $v;
+        font-size: $size-s;
+        font-style: italic;
+        line-height: 20px;
+    }
+}
+
+// .text-conf__section-contact*//
+
+.text-conf__section-contact-left {
+    &-headline {
+        color: $r;
+        font-family: $v;
+        font-size: $size-3-xl;
+        font-weight: 700;
+        line-height: 32px;
+        text-transform: uppercase;
+        letter-spacing: -1.28px;
+    }
+    
+    
+
+    &-text {
+        color: $f;
+        font-family: $v;   
+        font-size: $size-m;
+        font-weight: 400;
+        line-height: 20px;        
+
+    }
+
+    &-data-text {
+        color: $f;
+        font-family: $v;        
+        font-size: $size-s;        
+        font-weight: 700;        
+        line-height: 20px;        
+        text-transform: uppercase;        
+    }
+}
+
+.text-conf__section-contact-right {
+    &-headline {
+        color: $r;
+        font-family: $v;
+        font-size: $size-2-xl;
+        font-weight: 700;
+        // line-height: 32px;
+        text-transform: uppercase;
+        letter-spacing: -0.96px;
+    }
+
+    &-text {
+        color: $f;
+        font-family: $v;   
+        font-size: $size-m;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    &-form-line,
+    &-form-message {
+        padding: 18px;
+    }
+
+    &-form-line[placeholder],
+    &-form-message[placeholder] {
+        color: #afafaf;
+        font-family: $v;
+        font-size: $size-m;
+        font-weight: 400;
+    }
+
+    &-form-button-text {
+        color: $f;
+        font-family: $v;
+        font-size: $size-l;
+        font-weight: 400;
+        
+    }
+}
+
+
+
+// .text-conf__footer*//
+
+.text-conf__footer {
+    color: $f;
+    font-family: $v;
+    font-size: $size-s;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;        
+}
+
+
+
+    @media screen and (max-width: 991px) {
+
+// size-s
+    // .text-conf__footer,
+    // .text-conf__section-contact-left-data-text,
+    .text-conf__section-news-box__text,
+    .text-conf__section-news-box__date
+    // .text-conf__section-about-team-office,
+    // .text-conf__section-about-team-position
+        {
+        // @include locked-prop(font-size, (600px: 6px, 767px: 12px), true);
+        font-size: $s-mob-size-s;
+    }
+
+    // //size-m
+    // // .text-conf__section-contact-right-text,
+    // .text-conf__section-contact-right-form-line[placeholder],
+    // .text-conf__section-contact-right-form-message[placeholder],
+    // // .text-conf__section-contact-left-text,
+    // .text-conf__section-about__text,
+    // .text-conf-service-card__text,
+    // .text-conf__header-nav {
+    //     @include locked-prop(font-size, (600px: 8px, 767px: 14px), true);
+    //     // font-size: $mob-size-m;
+    // }
+
+    // //$size-l
+    // .text-conf__section-contact-right-form-button-text,
+    // // .text-conf__section-news-head-text,
+    // .text-conf__section-what-we-do__text,
+    // .text-conf__section-about__header-text,
+    // .text-conf-service-card__headline {
+    //     @include locked-prop(font-size, (600px: 10px, 767px: 16px), true);
+    //     // font-size: $mob-size-l;
+    // }
+
+    //size-1-xl
+    .text-conf__section-news-box__headline
+    // .text-conf__section-about__headline,
+    // .text-conf__header-text 
+        {
+        // @include locked-prop(font-size, (600px: 12px, 767px: 20px), true);
+        font-size: $s-mob-size-1-xl;
+    }
+
+    //size-2-xl
+    // .text-conf__section-contact-right-headline,
+    // .text-conf__section-news-head-headline {
+    // .text-conf__section-about__header-headliner {
+        // @include locked-prop(font-size, (600px: 15px, 767px: 24px), true);
+    //     font-size: $s-mob-size-2-xl;
+    // }
+
+    // //size-3-xl
+    // // .text-conf__section-contact-left-headline,
+    // .text-conf__section-about-liad-name {
+    //     @include locked-prop(font-size, (600px: 18px, 767px: 32px), true);
+    //     // font-size: $mob-size-3-xl;
+    // }
+
+    // //size-4-xl
+    // .text-conf__section-what-we-do__headline,
+    // .text-conf__section-contact-us__headline {
+    //     @include locked-prop(font-size, (600px: 21px, 767px: 34px), true);
+    //     // font-size: $mob-size-4-xl;
+    // }
+
+    // //size-5-xl
+    // .text-conf__header-headline {
+    //     @include locked-prop(font-size, (600px: 32px, 767px: 60px), true);
+    //     // font-size: $mob-size-5-xl;
+    // }
+
+
+        
+    //lh-s 20 
+    // .text-conf__footer,
+    .text-conf__section-news-box__text,
+    .text-conf__section-news-box__date {
+    // .text-conf__section-contact-left-text,
+    // .text-conf__section-contact-left-data-text,
+    // .text-conf__section-contact-right-text {
+        line-height: $lh-s;
+        
+    }
+
+    //lh-m 24  25  26  28
+    // .text-conf__header-text,
+    // .text-conf-service-card__headline,
+    // .text-conf-service-card__text,
+    // .text-conf__section-about__header-text,
+    // .text-conf__section-about__text,
+    // .text-conf__section-about-team-office,
+    // .text-conf__section-about-team-position,
+    // .text-conf__section-what-we-do__text,
+    // .text-conf__section-news-head-text,
+    //26
+    .text-conf__section-news-box__headline {
+        line-height: $lh-m;
+    } 
+    
+
+    //lh-l 32
+    .text-conf__header-nav,
+    .text-conf__section-contact-left-headline {
+        line-height: $lh-l;
+    }
+
+    //lh-1-xl 40
+    .text-conf__section-about-liad-name {
+        line-height: $lh-1-xl;
+    }
+
+    //lh-2-xl 58
+    .text-conf__section-contact-us__headline {
+        line-height: $lh-2-xl;
+    }
+
+    //lh-3-xl 74
+    .text-conf__header-headline {
+        line-height: $lh-3-xl;
+    }
+
+}
+
+// // @media screen and (max-width: 600px) {
+
+//     // size-s
+//     // .text-conf__footer,
+//     // .text-conf__section-contact-left-data-text,
+//     // .text-conf__section-news-box__text,
+//     // .text-conf__section-news-box__date,
+//     // .text-conf__section-about-team-office,
+//     // .text-conf__section-about-team-position {
+//     //     @include locked-prop(font-size, (600px: 8px, 767px: 12px), true);
+//         // font-size: $mob-size-s;
+//     }
+
+//     //size-m
+//     // .text-conf__section-contact-right-text,
+//     // .text-conf__section-contact-right-form-line[placeholder],
+//     // .text-conf__section-contact-right-form-message[placeholder],
+//     // .text-conf__section-contact-left-text,
+//     // .text-conf__section-about__text,
+//     // .text-conf-service-card__text,
+//     // .text-conf__header-nav {
+//     //     @include locked-prop(font-size, (600px: 10px, 767px: 14px), true);
+//         // font-size: $mob-size-m;
+//     }
+
+//     //$size-l
+//     // .text-conf__section-contact-right-form-button-text,
+//     // .text-conf__section-news-head-text,
+//     // .text-conf__section-what-we-do__text,
+//     // .text-conf__section-about__header-text,
+//     // .text-conf-service-card__headline {
+//     //     @include locked-prop(font-size, (600px: 12px, 767px: 16px), true);
+//         // font-size: $mob-size-l;
+//     }
+
+//     //size-1-xl
+//     // .text-conf__section-news-box__headline,
+//     // .text-conf__section-about__headline,
+//     // .text-conf__header-text {
+//     //     @include locked-prop(font-size, (600px: 15px, 767px: 20px), true);
+//         // font-size: $mob-size-1-xl;
+//     }
+
+//     //size-2-xl
+//     // .text-conf__section-contact-right-headline,
+//     .text-conf__section-news-head-headline{
+//     // .text-conf__section-about__header-headliner {
+//         @include locked-prop(font-size, (800px 18px, 767px: 24px), true);
+//         // font-size: $mob-size-2-xl;
+//     }
+
+//     //size-3-xl
+//     // .text-conf__section-contact-left-headline,
+//     // .text-conf__section-about-liad-name {
+//     //     @include locked-prop(font-size, (600px: 24px, 767px: 32px), true);
+//         // font-size: $mob-size-3-xl;
+//     }
+
+//     //size-4-xl
+//     // .text-conf__section-what-we-do__headline,
+//     // .text-conf__section-contact-us__headline {
+//     //     @include locked-prop(font-size, (600px: 25px, 767px: 34px), true);
+//         // font-size: $mob-size-4-xl;
+//     }
+
+//     //size-5-xl
+//     // .text-conf__header-headline {
+//     //     @include locked-prop(font-size, (600px: 45px, 767px: 60px), true);
+//         // font-size: $mob-size-5-xl;
+//     }

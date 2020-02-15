@@ -1,0 +1,90 @@
+//основной цвет заголовков (красный)
+$r: #fe504f;
+
+//белый цвет 
+$f: #ffffff;
+
+//темно серый для фона
+$d-g: #343434;
+
+// шрифт
+$v: Verdana, Geneva, Tahoma, sans-serif;
+
+//размер шрифта 
+$size-s: 12px;
+$size-m : 14px;
+$size-l : 16px;
+$size-1-xl : 20px;
+$size-2-xl : 24px;
+$size-3-xl : 32px;
+$size-4-xl : 34px;
+$size-5-xl : 60px;
+
+//размер шрифта мобайл
+$mob-size-s: 9px;
+$mob-size-m : 10.5px;
+$mob-size-l : 12px;
+$mob-size-1-xl : 15px;  //15px
+$mob-size-2-xl : 18px; //18px
+$mob-size-3-xl : 24px;
+$mob-size-4-xl : 25.5px;
+$mob-size-5-xl : 45px;
+
+//размер шрифта супер мобайл
+$s-mob-size-s: 9px; //ok
+$s-mob-size-m : 10.5px;
+$s-mob-size-l : 12px;
+$s-mob-size-1-xl : 14px;  //15px
+$s-mob-size-2-xl : 18px; 
+$s-mob-size-3-xl : 24px;
+$s-mob-size-4-xl : 25.5px;
+$s-mob-size-5-xl : 45px;
+
+//line
+// Первые значение
+// $lh-s: 20px; //6
+// $lh-m: 24px; //8 +1 +1 +1 
+// //25 к 24
+// //26 -//-
+// //28 -//-
+// $lh-l: 32px; //2
+// $lh-1-xl: 40px;
+// $lh-2-xl: 58px;
+// $lh-3-xl: 74px;
+
+$lh-s: 15px; //6
+$lh-m: 18px; //8 +1 +1 +1 
+//25 к 24
+//26 -//-
+//28 -//-
+$lh-l: 24px; //2
+$lh-1-xl: 30px;
+$lh-2-xl: 43px;
+$lh-3-xl: 55px;
+
+
+
+
+
+// основный размер документа
+$max-width-doc: 1600px;
+$max-width-cont: 1200px;
+// 
+
+// цвета кнопок
+$button-red: #fe504f;
+$button-red-hover: #f87575;
+$button-red-activ: #f62e2e;
+
+$button-grey: #343434;
+$button-grey-hover: #5c5c5c;
+$button-grey-activ: #242424;
+// 
+
+
+@media screen and (max-width: 600px) {
+    .main-containt {
+        margin-top: -100px;
+    }
+}
+

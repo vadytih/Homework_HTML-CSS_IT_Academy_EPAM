@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Доп. ДЗ - адаптивные картинки.</title>
+</head> 
+<h1>Атрибут srcset и picture</h1>
+<body>
+    <h3>srcset не работает на Chrome, на Mazilla все ОК.</h3>
+    <img srcset="imag/cat1.jpg 320w,
+                 imag/cat2.jpg 480w,
+                 imag/cat3.jpg 800w"
+         sizes="(max-width: 320px) 280px,
+                (max-width: 480px) 440px,
+                800px"
+         src="cat3.jpg" alt="cat">
+    <H3>Через тег Picture.</H3>
+    <picture>
+        <source media="(max-width: 499px)" srcset="imag/cat1.jpg">
+        <source media="(max-width: 649px)" srcset="imag/cat2.jpg">
+        <img src="imag/cat3.jpg" alt="cat">
+    </picture>
+<p>Вывод, лучше использоват <strong>picture</strong></p>
+</body>
+</html>

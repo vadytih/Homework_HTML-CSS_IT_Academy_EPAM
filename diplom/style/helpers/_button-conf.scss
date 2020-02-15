@@ -1,0 +1,93 @@
+.button-conf {
+    width: 215px;
+    height: 65px;
+    border-radius: 32px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 150ms ease-in 0ms; 
+    
+
+
+    &__red {
+        background: $button-red;
+    }
+
+    &__red:hover {
+        background: $button-red-hover;
+        transition: none; 
+    }
+
+    &__red:active {
+        background: $button-red-activ;
+    }
+
+    &__red:focus {
+        border: none;
+    }
+
+    &__grey {
+        background: $button-grey;
+    }
+
+    &__grey:hover {
+        background: $button-grey-hover;
+    }
+
+    &__grey:active {
+        background: $button-grey-activ;
+    }
+
+    &__text {       
+        color: #ffffff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+               
+    }
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.button-conf-litl {
+    width: 138px;
+    height: 40px;
+    border-radius: 20px;
+    transition: all 150ms ease-in 0ms; 
+}
+
+.button-conf-play {
+    cursor: pointer;
+    width: 92px;
+    height: 92px;
+    border-radius:50%;
+    padding-left: 17px;
+    transition: all 150ms ease 0ms; 
+}
+
+.button-conf__news {
+    cursor: pointer;
+    align-items: center;
+    transition: all 150ms ease 0ms; 
+
+    & span {
+        width: 100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 15px;  
+        cursor: pointer;      
+    
+    }
+}
+
+
+
+

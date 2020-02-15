@@ -1,0 +1,64 @@
+
+$padding: 0 20px;
+
+.header {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__contacts {
+        display: flex;
+        font-size: 14px;
+    }
+    &__contacts-link-wrapper {
+        padding: $padding;
+        & + & {
+            border-left: 1px solid #aaaaaa;
+        }
+    }
+    &__login {
+        text-transform: uppercase;
+        display: flex;
+        font-size: 14px;        
+    }
+    &__login-link-wrapper {
+        padding: $padding;
+        & + & {
+            border-left: 1px solid #aaaaaa;
+        }
+    }
+    &__top {
+        padding: 10px 0;
+        background-color: #382b2b;
+    }
+    &__nav {
+        border-bottom: 1px solid #ccc;
+    }
+    &__nav-list {
+        display: flex;
+        justify-content: center;
+    }
+    &__nav-list-item {
+        padding: 10px;
+    }
+    &__nav-list-item a:hover {
+        text-decoration: underline;
+        color: green;
+    }
+}
+.top-banner {
+    padding: 5%;
+    background:  #ccc url("../images/01.png") center no-repeat;
+    &__title {
+        font-size: 54px;
+        color: #fff;
+        text-align: center;
+    }
+    &__clarify {
+        margin-top: 25px;
+        font-size: 16px;
+        color: #fff;
+        line-height: 1.2;
+    }
+}

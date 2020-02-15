@@ -1,0 +1,28 @@
+.section-news {
+    max-width: $max-width-doc;
+
+    &__wrapper {
+        max-width: $max-width-cont;
+        padding: 80px 0;
+    }
+
+    &__header-blok {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 77px;
+    }
+
+    &__header-headline {
+        text-align: center;
+        margin-bottom: 31px;
+
+    }
+
+    &__header-text {
+        text-align: center;
+    }
+
+
+
+}

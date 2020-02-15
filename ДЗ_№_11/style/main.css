@@ -1,0 +1,173 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+button {
+  width: 140px;
+  height: 60px;
+  border: none;
+  background: #9e4a96;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+}
+
+button:hover {
+  cursor: pointer;
+  background: rgba(158, 74, 150, 0.8);
+}
+
+span {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+h1,
+h2 {
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.wrapper__headline {
+  text-align: center;
+}
+
+.box {
+  width: 300px;
+  margin: 0 5px;
+}
+
+.box-1__btn {
+  -webkit-transition: .15s;
+  transition: .15s;
+}
+
+.box-2__card {
+  -webkit-box-shadow: 1px 2px 4px 0px gray;
+          box-shadow: 1px 2px 4px 0px gray;
+  border-radius: 5px;
+}
+
+.box-2__blok {
+  width: 100%;
+  position: relative;
+}
+
+.box-2__btn {
+  position: absolute;
+  margin-top: -30px;
+  margin-left: -70px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: rotate(0deg) scale(0, 0);
+          transform: rotate(0deg) scale(0, 0);
+  -webkit-transition: -webkit-transform 0.15s linear 0ms;
+  transition: -webkit-transform 0.15s linear 0ms;
+  transition: transform 0.15s linear 0ms;
+  transition: transform 0.15s linear 0ms, -webkit-transform 0.15s linear 0ms;
+}
+
+.box-2__btn span::before {
+  content: "нажми меня!";
+}
+
+.box-2__imag {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.box-2__text {
+  padding: 5px 3px 10px 8px;
+}
+
+.box-2__card:hover button {
+  -webkit-transform: rotate(0deg) scale(1, 1);
+          transform: rotate(0deg) scale(1, 1);
+  -webkit-transition: -webkit-transform 0.15s linear 0ms;
+  transition: -webkit-transform 0.15s linear 0ms;
+  transition: transform 0.15s linear 0ms;
+  transition: transform 0.15s linear 0ms, -webkit-transform 0.15s linear 0ms;
+}
+
+.box-3 input {
+  width: 100%;
+  line-height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 0 5px;
+  background: transparent;
+}
+
+.box-3 span {
+  text-transform: none;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.box-3 span::before {
+  content: "Yor name:";
+}
+
+.box-3 form {
+  position: relative;
+}
+
+.box-3 label {
+  width: 86px;
+  height: 24px;
+  background: #ffffff;
+  position: absolute;
+  margin-left: -43px;
+  margin-bottom: -12px;
+  bottom: 50%;
+  left: 20%;
+  -webkit-transition: -webkit-transform 0.15s linear 0ms;
+  transition: -webkit-transform 0.15s linear 0ms;
+  transition: transform 0.15s linear 0ms;
+  transition: transform 0.15s linear 0ms, -webkit-transform 0.15s linear 0ms;
+  z-index: 1;
+}
+
+.box-3 input:focus ~ label {
+  bottom: 100%;
+  -webkit-transition: -webkit-transform 0.15s linear 0ms;
+  transition: -webkit-transform 0.15s linear 0ms;
+  transition: transform 0.15s linear 0ms;
+  transition: transform 0.15s linear 0ms, -webkit-transform 0.15s linear 0ms;
+  z-index: 1;
+}
+
+.box-3 input:valid ~ label {
+  bottom: 100%;
+}
+/*# sourceMappingURL=main.css.map */
